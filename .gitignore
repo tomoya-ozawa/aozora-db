@@ -1,0 +1,12 @@
+# api
+api/node_modules/
+api/dist/
+api/logs
+api/*.log
+api/npm-debug.log*
+api/yarn-debug.log*
+api/yarn-error.log*
+api/lerna-debug.log*
+
+# OS
+.DS_Store
