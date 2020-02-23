@@ -1,4 +1,4 @@
-import { Authors, Author } from '../../../interfaces/author/author.interface';
+import { Authors } from '../../../interfaces/author/author.interface';
 
 const authors: Authors = [
   { id: 5, name: 'ツルゲーネフ イワン' },
