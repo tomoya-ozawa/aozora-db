@@ -10,3 +10,6 @@ api/lerna-debug.log*
 
 # OS
 .DS_Store
+
+# editor
+.vscode
