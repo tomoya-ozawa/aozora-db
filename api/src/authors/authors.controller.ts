@@ -1,4 +1,4 @@
-import { Authors, Author } from '../../../interfaces/author/author.interface';
+import { Authors, Author } from '../../interfaces/author/author.interface';
 import { AuthorsService } from './authors.service';
 import { Controller, Get, Param } from '@nestjs/common';
 
@@ -11,8 +11,8 @@ export class AuthorsController {
     return this.authorsService.authors();
   }
 
-  @Get('/:authorId')
-  author(@Param('authorId') authorId: number): Author {
-    return this.authorsService.author(authorId);
+  @Get(':authorId')
+  author(@Param('authorId') authorId: string): Author {
+    return this.authorsService.author(Number(authorId));
   }
 }
