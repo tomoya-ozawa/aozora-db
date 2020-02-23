@@ -1,6 +1,6 @@
 import { Authors } from '../../../interfaces/author/author.interface';
 
-const authors: Authors = [
+export const authors: Authors = [
   { id: 5, name: 'ツルゲーネフ イワン' },
   { id: 6, name: '二葉亭 四迷' },
   { id: 7, name: '藤下 真潮' },
