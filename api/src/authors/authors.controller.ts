@@ -1,4 +1,4 @@
-import { Authors, Author } from '../../interfaces/author/author.interface';
+import { Authors, Author } from '../../../interfaces/author/author.interface';
 import { AuthorsService } from './authors.service';
 import { Controller, Get, Param } from '@nestjs/common';
 
