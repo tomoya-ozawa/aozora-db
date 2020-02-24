@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Authors, Author } from '../../interfaces/author/author.interface';
+import { Authors, Author } from '../../../interfaces/author/author.interface';
 import { authors as authorsMock } from './../../mocks/author/author';
 
 @Injectable()
